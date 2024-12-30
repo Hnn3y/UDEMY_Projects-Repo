@@ -38,9 +38,18 @@ fs.readFile("./message.txt", "utf8", (err, data) => {
 ### 2.3 
 ![Page Screenshot](/Images/Screenshot%20(158).png)
 ## RESULTS
-PS C:\Users\USER PC\UDEMY_Projects-Repo\2.3 NPM> node index.js
+PS \UDEMY_Projects-Repo\2.3 NPM> node index.js
 My name is Titaniumgrabber Centaur.
 My name is Typhoonantelope Stag.
 My name is Dogdevourer Fairy.
 My name is Powercockatoo Llama.
 My name is Stonedagger Crafter. 
+
+### 2.3 TEST
+![Page Screenshot](/Images/Screenshot%20(158).png)
+## RESULTS
+PS \UDEMY_Projects-Repo\2.3 NPM TEST> node index.js
+My name is Harley Davidson Cooper.
+My name is Orphan.
+My name is Wither.
+My name is Ben Parker

@@ -1,0 +1,15 @@
+{
+  "name": "testing-npm",
+  "version": "1.0.0",
+  "description": "Learning and Testing NPM",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HENNEY",
+  "license": "ISC",
+  "dependencies": {
+    "superheroes": "^4.0.0"
+  }
+}
