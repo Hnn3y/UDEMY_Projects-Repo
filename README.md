@@ -53,3 +53,5 @@ My name is Harley Davidson Cooper.
 My name is Orphan.
 My name is Wither.
 My name is Ben Parker
+I am Ravage 2099.
+I am Mr. Fantastic.
