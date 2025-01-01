@@ -1,5 +1,8 @@
 # UDEMY_Projects-Repo
 
+## THIS IS FOR MY LEARNING AND TESTS AFTER LEARNING
+### CHECK MY PROJECTS REPO FOR THE ACTUAL PROJECTS
+
 ## Staring with the backend 
 
 ### 2.1
