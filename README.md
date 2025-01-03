@@ -67,3 +67,11 @@ I am Mr. Fantastic.
 
 #### LEARNT ABOUT EXPRESS AND HOW TO CREATE A SERVER 
 #### INSTALLED NODEMON TO MONITOR CHNAGES GLOBALLY 
+
+### 3.2 HTTP REQUESTS
+![Page Screenshot](/Images/Screenshot%20(164).png)
+![Page Screenshot](/Images/Screenshot%20(165).png)
+![Page Screenshot](/Images/Screenshot%20(166).png)
+![Page Screenshot](/Images/Screenshot%20(167).png)
+
+#### CREATED ENDPOINTS FOR DIFFERENT PARTS OF THE PAGE
