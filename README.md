@@ -75,3 +75,5 @@ I am Mr. Fantastic.
 ![Page Screenshot](/Images/Screenshot%20(167).png)
 
 #### CREATED ENDPOINTS FOR DIFFERENT PARTS OF THE PAGE
+
+### 3.3 POSTMAN 
