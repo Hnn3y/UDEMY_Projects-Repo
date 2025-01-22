@@ -78,3 +78,5 @@ I am Mr. Fantastic.
 
 ### 3.3 POSTMAN 
 ![Page Screenshot](/Images/Screenshot%20(177).png)
+
+#### USED POSTMAN TO GET RESPONSE CODES
