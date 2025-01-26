@@ -82,5 +82,7 @@ I am Mr. Fantastic.
 #### USED POSTMAN TO GET RESPONSE CODES
 
 ### 3.4 EXPRESS MIDDLEWARE
-
-####
+Listening on port 3000
+{ street: 'Apple', pet: 'Cat' }
+{ street: 'Apple', pet: 'Cat' }
+#### USED POSTMAN WITH HTML BODY TO RECEIVE REQUESTS USING BODY-PARSER MIDDLEWARE
