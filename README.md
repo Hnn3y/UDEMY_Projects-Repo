@@ -86,3 +86,22 @@ Listening on port 3000
 { street: 'Apple', pet: 'Cat' }
 { street: 'Apple', pet: 'Cat' }
 #### USED POSTMAN WITH HTML BODY TO RECEIVE REQUESTS USING BODY-PARSER MIDDLEWARE
+
+### 3.4 MIDDLEWARE 
+Morgan Logging Formats
+Morgan provides several built-in logging formats, each with a different level of detail. Below are the available formats:
+
+Format	Description
+combined	Logs detailed request info in Apache combined format (IP, method, URL, status, user agent, referrer, etc.). Best for production.
+common	Similar to combined but without the referrer and user-agent fields.
+dev	Logs concise output with method, status, response time, and color-coded status codes. Best for development.
+short	Minimal logging, similar to common, but without remote IP.
+tiny	Logs only method, URL, status, response size, and response time. The most lightweight format.
+
+Example Usage
+
+app.use(morgan("combined")); // Most detailed logging, best for production
+app.use(morgan("common"));   // Similar to combined, but slightly shorter
+app.use(morgan("dev"));      // Color-coded, concise, great for development
+app.use(morgan("short"));    // Minimal, compact logging
+app.use(morgan("tiny"));     // Super minimal logging
