@@ -7,23 +7,24 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
 const port = 3000;
+var bandName = "";
+
+app.use(bodyParser.urlencoded({ extended: true }));
 
 function bandNameCreator(req, res, next) {
   console.log(req.body);
-  bandName = req.body["Name"] + req.body["Pet"];
+  bandName = req.body["street"] + req.body["pet"];
   next();
 }
 
 app.use(bandNameCreator);
-app.use(bodyParser.urlencoded({ extended: true}));
 
-
-app.get("/" , (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
 app.post("/submit", (req, res) => {
-  res.send(`<h1>Your band name is : </h1><h2>${bandName}✌️</h2>`);
+  res.send(`<h1>Your band name is:</h1><h2>${bandName}✌️</h2>`);
 });
 
 app.listen(port, () => {
