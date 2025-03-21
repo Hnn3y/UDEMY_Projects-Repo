@@ -82,6 +82,13 @@ I am Mr. Fantastic.
 #### USED POSTMAN TO GET RESPONSE CODES
 
 ### 3.4 EXPRESS MIDDLEWARE
+
+```javascript
+app.post("/submit", (req, res) => {
+  console.log(req.body);
+}); 
+```
+
 Listening on port 3000
 { street: 'Apple', pet: 'Cat' }
 { street: 'Apple', pet: 'Cat' }
@@ -105,3 +112,4 @@ app.use(morgan("common"));   // Similar to combined, but slightly shorter
 app.use(morgan("dev"));      // Color-coded, concise, great for development
 app.use(morgan("short"));    // Minimal, compact logging
 app.use(morgan("tiny"));     // Super minimal logging
+
