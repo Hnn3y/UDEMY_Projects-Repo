@@ -23,13 +23,16 @@ app.use(checkPassword);
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
-})
+});
 
 app.post("/check", checkPassword, (req,res) => {
     if (password === "Henney") {
         res.sendFile(__dirname + "/public/secret.html")
     }
-}) 
+    else (
+        res.sendFile(__dirname + "/public/index.html")
+    )
+});
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
