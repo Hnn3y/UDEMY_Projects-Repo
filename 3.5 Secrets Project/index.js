@@ -12,7 +12,7 @@ const app = express();
 const port = 3000;
 var password="";
 
-app.use(bodyParser.urlencoded({extened: true}));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 function checkPassword(req, res, next) {
     password = req.body["password"];
